@@ -1,0 +1,17 @@
+<template name="people">
+	<div class="row-fluid">
+		<h6>Using $or: {{peopleCount}}</h6>
+	</div>
+	{{#with people}}
+		{{> resultTable}}
+	{{/with}}
+</template>
+
+<template name="otherPeople">
+	<div class="row-fluid">
+		<h6>Using multiple Publications/Subscriptions: {{otherPeopleCount}}</h6>
+	</div>
+	{{#with otherPeople}}
+		{{> resultTable}}
+	{{/with}}
+</template>
