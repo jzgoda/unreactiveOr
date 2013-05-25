@@ -10,9 +10,10 @@ I also found a workaround, by using multiple publications/subscriptions that eac
 The Example
 ------------
 
-In this example, I've created two collections:
-	* People - uses an $or query
-	* OtherPeople - uses multiple publications on a single field
+In this example, I've created two collections: 
+
+* People - uses an $or query
+* OtherPeople - uses multiple publications on a single field
 
 These collections are filled with the same random fixture data, and then searching is intented to match on either a person's first or last name.
 
